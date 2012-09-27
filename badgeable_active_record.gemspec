@@ -15,7 +15,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = BadgeableActiveRecord::VERSION
 
-  gem.add_runtime_dependency "badgeable", "~> 0.5.0", :git=>"git@github.com:justinsaul/badgeable_active_record.git"
+  gem.add_runtime_dependency "badgeable", "~> 0.5.0", :git=>"git://github.com/justinsaul/badgeable_active_record.git"
   gem.add_runtime_dependency "activerecord", "> 2.1.0"
 
   gem.add_development_dependency "rake", "~> 0.8"
